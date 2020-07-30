@@ -1,18 +1,31 @@
 <html __fvdsurfcanyoninserted="1" class=" clickberry-extension clickberry-extension-standalone clickberry-extension clickberry-extension-standalone clickberry-extension clickberry-extension-standalone"><head>
         <meta charset="UTF-8">
         <title>Happy Birthday</title>
+          <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
           <style>
             /* If you can't see it just hit space in here*/
             body {
-                font-family:'Wendy One', sans-serif;
-            }
-			
-			body {
-  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
+
+
+                background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
   background-image: -webkit-radial-gradient(#374566, #010203);
   background-image: -moz-radial-gradient(#374566, #010203);
   background-image: -o-radial-gradient(#374566, #010203);
   background-image: radial-gradient(#374566, #010203);
+                      background-color: black;
+     }
+     div.back2{ color: white;
+      font-family: 'Lucida Grande', Verdana, Arial;
+      font-size: 12px;
+      background-image: -webkit-gradient(radial,
+                            50% 500, 1,
+                            50% 500, 400,
+                            from(rgba(255, 255, 255, 0.3)),
+                            to(rgba(255, 255, 255, 0)));
+     background-repeat: no-repeat;
+    font-family:'Wendy One', sans-serif;
+  
 }
             span {
                 text-transform: uppercase;
@@ -163,7 +176,7 @@
     
     #shape {
       position: relative;
-      top: 160px;
+      top: 200px;
       margin: 0 auto;
       height: 200px;
       width: 200px;
@@ -214,7 +227,7 @@
 
     div.backpic{
         background-image:url("Ritu.jpeg");
-        height: 700px;
+        height: 500px;
         width:100%;
     }
 
@@ -490,10 +503,16 @@
             }
             h2{
                 position: relative;
-                top: 200px;
+                top: 100px;
                 text-align: center;
                 color: red;
                 font-size: 2.5em;
+            }
+            h3{ position: relative;
+                top: 280px;
+                text-align: center;
+                color: orange;
+                font-size: 2em;
             }
         </style>
         <script>
@@ -532,8 +551,14 @@
              <h1>Ritu Bhaiya</h1>
 </div>
         </div>
- <div id="container">
+
+
+ 
+<div class="back2">
     <div id="stage">
+              <h2>Happy birthday from ♥ !</h2>
+              <br><br><br>
+        
       <div id="shape" class="cube backfaces">
         <div class="plane one"><img class="pic" src="pic/1st.jpg" alt="♥"></div>
         <div class="plane two"><img class="pic" src="pic/2nd.jpeg" alt="♥"></div>
@@ -548,9 +573,11 @@
         <div class="plane eleven"><img class="pic" src="pic/11th.jpg" alt="♥"></div>
         <div class="plane twelve"><img class="pic" src="pic/12th.jpeg" alt="♥"></div>
       </div>
-      <h2>Happy birthday from ♥ !</h2><div class="tooglebut">
+
+       <h3>Many Many Happy returns of the day on your 25th birthday!!</h3>
+      <div class="tooglebut">
     <button onclick="toggleShape()">♥+</button>
-  </div></div></div>
+  </div></div></div></div>
  
 
 
